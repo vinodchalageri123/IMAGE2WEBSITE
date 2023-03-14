@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%;
+    font-family:sans-serif ;
+}
+
+div,section,header,span,ul,li,a{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+#menu li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#Sample{
+    background-image: url('images.jpeg');
+}
+
+.container{
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    word-spacing: -100000%;
+}
+h1{
+    top:50px;
+    left: 10px;
+
+}
+div.bottom-left h1,h6{
+    margin: 5px; /* Remove any default margins */
+    text-align: left;
+    padding-left: 70px;
+}
+div.bottom-left{
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Align headers and text vertically */
+    align-items: flex-start; /* Align headers to the left */
+    padding: 10px; /* Add some padding for spacing */
+  }
+
+.bottom-right {
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Align headers and text vertically */
+    align-items: flex-start; /* Align headers to the left */
+    padding: 10px; /* Add some padding for spacing */
+  }
+
+  div.bottom-right h1,h3,h5 {
+    margin: 10px; /* Remove any default margins */
+    text-align: left;
+    padding-left: 65px;
+     /* Align text to the left */
+  }
+  div.bottom-right h6{
+    word-spacing: 5px;
+    height: 10px;
+    line-height:15px;
+    font-size: 13px;
+  }
+div button {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 70px;
+    background-color: black;
+    color: white; 
+}
+.wrapper {
+    display: flex;
+  }
+  
+  .left {
+    flex: 1;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align:left;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+    align-items: flex-end;
+  }
+  
+ 
+  div.container4 h1,h6{
+    margin: 5px; /* Remove any default margins */
+    text-align: left;
+    padding-left: 70px;
+}
+div.container4{
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Align headers and text vertically */
+    align-items: flex-start; /* Align headers to the left */
+    padding: 30px; /* Add some padding for spacing */
+    background-image: url('image.jpeg');
+    color: white;
+    height: 500px;
+  }
+
+  #menu1 li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding-left: 60px;
+}
+
+#menu1 li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container4 {
+    padding-left: 1000px; /* adjust this value to your liking */
+  }
+  
+  .container5 {
+    padding-left: 20px; /* adjust this value to your liking */
+  }
+  
+  .picture-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .picture-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .picture-column {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .picture-column img {
+    width: 100%;
+    height: auto;
+  }
+  div.container5 h1,h6{
+    margin: 5px; /* Remove any default margins */
+    text-align: left;
+    padding-left: 70px;
+}
+div.container5{
+    display: flex; /* Use flexbox to align content */
+    flex-direction: column; /* Align headers and text vertically */
+    align-items: flex-start; /* Align headers to the left */
+    padding: 30px;
+    text-align: 0px; /* Add some padding for spacing */ 
+  }
+
+.picture img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 100px;
+  }
+  div.container6{
+    margin-right: 20px;/* Add some padding for spacing */ 
+  }
+.picture:nth-child(odd) img{
+    margin-left: 50px;
+}
+.picture p{
+    margin-top: 10px;
+    padding-left: 100px;
+    text-align: center ;
+}
+
+.horizontal-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    
+  }
+  
+  h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  div.horizontal-box button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 420px;
+    margin-top: 10px;
+  }
+  
+
+  .image-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  }
+  
+  div.image-box h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  div.image-box ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+  }
+  
+ div.image-box ul li {
+    margin: 0 10px;
+  }
+  
+  div.image-box ul li a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  div.image-box ul li a:hover {
+    background-color: #333;
+  }
+  div.image-box{
+    background-color: black;
+    color: white;
+    position: relative;
+    top:-650px
+    
+  }
